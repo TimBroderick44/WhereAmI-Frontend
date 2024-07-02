@@ -1,7 +1,7 @@
 # # Where Am I?
 
 ### NOTE:
-*This is a React / TS frontend for my [Where Am I?](https://github.com/TimBroderick44/WhereAmI-Backend) project. 
+*This is a React / TS frontend for my 'Where am I?' project and requires access to the [backend here](https://github.com/TimBroderick44/WhereAmI-Backend).
 
 This React / TypeScript frontend allows users to search for postcodes and get their associated auburbs and vice versa. Users can also log in as an admin and create, update and delete entries. 
 
@@ -31,7 +31,7 @@ This React / TypeScript frontend allows users to search for postcodes and get th
     ```
 3. **Setup and Run the Backend**
    
-   Follow the steps [here](https://github.com/TimBroderick44/WhereAmI-Backend) and setup the backend. 
+   Follow the steps [here](https://github.com/TimBroderick44/WhereAmI-Backend) and set up the backend. 
 
 4. **Run in Development Mode**
     ```sh
