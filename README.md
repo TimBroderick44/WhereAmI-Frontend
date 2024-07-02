@@ -29,11 +29,22 @@ This React / TypeScript frontend allows users to search for postcodes and get th
     cd WhereAmI-Frontend
     npm install
     ```
-3. **Setup and Run the Backend**
+3. **Obtain a Key for the Google Maps API**
+
+   Go to [Google Cloud Maps API]( https://console.cloud.google.com/google/maps-apis) and obtain a key
+
+   Create a '.env' file in your root directory with the following:
+
+   ```js
+   GOOGLE_MAPS_API_KEY=XXXXXXXXX
+   ```
+   Where "XXXXXXX" is your Google Maps API key
+
+5. **Setup and Run the Backend**
    
    Follow the steps [here](https://github.com/TimBroderick44/WhereAmI-Backend) and set up the backend. 
 
-4. **Run in Development Mode**
+6. **Run in Development Mode**
     ```sh
     npm run dev
     ```
