@@ -1,0 +1,32 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  justify-self: center;
+  .headings {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    gap: 10px;
+    width: 100%;
+    .suburb {
+      font-size: 1.5rem;
+      margin: 2px 0 0.5rem 0;
+    }
+    .postcode {
+      font-size: 1.1rem;
+      margin: 0 0 0.5rem 0;
+    }
+  }
+  &:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.137);
+    transition: 0.3s;
+  }
+}

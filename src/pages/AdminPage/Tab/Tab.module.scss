@@ -1,0 +1,14 @@
+.tab {
+  position: relative; 
+  cursor:pointer;
+  padding: 5px;
+  border-bottom: 2px solid transparent;
+  font-weight: normal;
+  &:hover {
+    background-color: #bec0d3;
+  }
+  &.active {
+    border-bottom: 2px solid #000;
+    font-weight: bold;
+  }
+}

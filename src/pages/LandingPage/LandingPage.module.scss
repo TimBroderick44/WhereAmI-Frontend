@@ -1,0 +1,57 @@
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 55vw;
+  margin-left: 80px;
+  .title{
+    font-size: 3rem;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  .description, .joke{
+    font-size: 1rem;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  .confused {
+height: 40vh;
+width: 25vw;
+  }
+}
+.right {
+  margin-right: 80px;
+  .loginRequest{
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+  .form {
+    background-color: #1064A3;
+    color: #fff; 
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    button {
+      background-color: #DC1928;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      color: #fff;
+      font-weight: bold;
+      &:hover {
+        background-color: #fff;
+        color: #DC1928;
+        transition: 0.3s;
+        cursor: pointer;
+      }
+    }
+  }
+}

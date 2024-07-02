@@ -1,0 +1,31 @@
+.container {
+  margin: 10px 0 0 0;
+  width: 95vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .profileTabs{
+    border: 1px solid #c2c3c1;
+    margin: 0;
+    .profile {
+      margin: 40px 5px 0 12px;
+      border-radius: 10px;
+    }
+    p, h2 {
+      margin: 10px;
+      text-align: left;
+    }
+    .tabs{
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      margin: 50px 5px 0 5px;
+      }
+    }
+  }
+  .tabContent {
+    flex: 1;
+    border: 1px solid #c2c3c1;
+    margin: 0;
+    height: 89vh;
+  }
