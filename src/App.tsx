@@ -14,7 +14,7 @@ function App() {
   return (
     <AuthProvider>
       <SearchProvider>
-      <LoadScript googleMapsApiKey="AIzaSyDqhTaYayiCuDzP5DzO7w0rhlSpIj-_2Fo">
+      <LoadScript googleMapsApiKey="XXXXXXXX">
         <BrowserRouter>
           <ToastContainer position="bottom-right" />
           <NavBar />

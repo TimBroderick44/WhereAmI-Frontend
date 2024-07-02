@@ -11,7 +11,7 @@ const MapComponent: React.FC<MapComponentProps> = ({ suburb }) => {
     const fetchCoordinates = async () => {
       try {
         const response = await axios.get(
-          `https://maps.googleapis.com/maps/api/geocode/json?address=${suburb}+NSW+Australia&key=AIzaSyDqhTaYayiCuDzP5DzO7w0rhlSpIj-_2Fo`
+          `https://maps.googleapis.com/maps/api/geocode/json?address=${suburb}+NSW+Australia&key=XXXXXXXXX`
         );
 
         if (response.data.status === 'OK') {
