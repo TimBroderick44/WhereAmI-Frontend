@@ -3,15 +3,18 @@ import { GoogleMap, Marker } from '@react-google-maps/api';
 import axios from 'axios';
 import style from './MapComponent.module.scss';
 import { MapComponentProps } from '../../types';
+import env from "react-dotenv";
 
 const MapComponent: React.FC<MapComponentProps> = ({ suburb }) => {
   const [center, setCenter] = useState<{ lat: number; lng: number } | undefined>();
+
+  const GOOGLE_MAPS_API_KEY = env.REACT_APP_GOOGLE_MAPS_API_KEY;
 
   useEffect(() => {
     const fetchCoordinates = async () => {
       try {
         const response = await axios.get(
-          `https://maps.googleapis.com/maps/api/geocode/json?address=${suburb}+NSW+Australia&key=XXXXXXXXX`
+          `https://maps.googleapis.com/maps/api/geocode/json?address=${suburb}+NSW+Australia&key=${GOOGLE_MAPS_API_KEY}`
         );
 
         if (response.data.status === 'OK') {

@@ -9,12 +9,13 @@ import { AuthProvider } from "./context/AuthContext";
 import { LoadScript } from "@react-google-maps/api";
 import ProtectedRoute from "./components/ProtectedRoute/ProtectedRoute.tsx";
 import { SearchProvider } from "./context/SearchContext.tsx";
+import env from "react-dotenv";
 
 function App() {
   return (
     <AuthProvider>
       <SearchProvider>
-      <LoadScript googleMapsApiKey="XXXXXXXX">
+      <LoadScript googleMapsApiKey={env.REACT_APP_GOOGLE_MAPS_API_KEY}>
         <BrowserRouter>
           <ToastContainer position="bottom-right" />
           <NavBar />
