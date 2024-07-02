@@ -31,7 +31,7 @@ This React / TypeScript frontend allows users to search for postcodes and get th
     ```
 3. **Setup and Run the Backend**
    
-   Follow the steps [here](https://github.com/TimBroderick44/WhereAmI-Backend) and setup the backend. 
+   Follow the steps [here](https://github.com/TimBroderick44/WhereAmI-Backend) and set up the backend. 
 
 4. **Run in Development Mode**
     ```sh
